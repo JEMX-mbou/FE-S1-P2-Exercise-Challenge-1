@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Exercise 1: Nested selectors en flexbox</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <aside>
+        <ol>
+          <li><a href="#all">All</a></li>
+          <li><a href="#flex-direction">flex-direction</a></li>
+          <li><a href="#...">...</a></li>
+        </ol>
+      </aside>
+
+      <article>
+        <section id="all">
+          <h2>All</h2>
+          <div class="buttons">
+            <button value="flex-direction">flex-direction</button>
+            <button value="flex-wrap">flex-wrap</button>
+            <button value="align-content">align-content</button>
+            <button value="justify-content">justify-content</button>
+            <button value="align-items">align-items</button>
+          </div>
+          <div class="options">
+            <div class="flex-direction">
+              flex-direction: <span class="value"></span>
+            </div>
+            <div class="flex-wrap">flex-wrap: <span class="value"></span></div>
+            <div class="align-content">
+              align-content: <span class="value"></span>
+            </div>
+            <div class="justify-content">
+              justify-content: <span class="value"></span>
+            </div>
+            <div class="align-items">
+              align-items: <span class="value"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">1</div>
+            <div class="column">2</div>
+            <div class="column">3</div>
+          </div>
+        </section>
+
+        <section id="flex-direction">
+          <h2>flex-direction <button>Change</button></h2>
+          <div class="options">
+            <div class="flex-direction">
+              flex-direction: <span class="value"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">1</div>
+            <div class="column">2</div>
+            <div class="column">3</div>
+          </div>
+        </section>
+
+        <section id="...">
+          <h2>... <button>Change</button></h2>
+          <div class="options">
+            <div class="...">...: <span class="value"></span></div>
+          </div>
+          <div class="row">
+            <div class="column">1</div>
+            <div class="column">2</div>
+            <div class="column">3</div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>

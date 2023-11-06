@@ -1,0 +1,91 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 20px;
+}
+
+body {
+  background: rgb(7, 60, 124);
+  background: radial-gradient(circle, rgb(7, 60, 124) 0%, rgb(41, 38, 58) 100%);
+}
+body * {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: monospace;
+  color: #fff;
+}
+
+main#code section {
+  display: flex;
+  margin: 0.5rem 0;
+}
+main#code section#buttons {
+  justify-content: center;
+}
+
+.color-block {
+  width: 4rem;
+  height: 4rem;
+  margin: 0.2rem;
+  border: 4px solid;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5333333333);
+  transition: background-color 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+button {
+  height: 2.5rem;
+  padding: 0.25rem 1rem;
+  margin: 0.5rem;
+  border-radius: 1.25rem;
+  border: none;
+  font-size: 1.5rem;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button[type=reset] {
+  background-color: #f37a73;
+}
+button[type=reset]:hover {
+  background-color: #bd1910;
+}
+button[type=submit] {
+  background-color: #91d8f4;
+}
+button[type=submit]:hover {
+  background-color: #15a0d7;
+}
+
+body {
+  display: flex;
+  /* position children in center of page */
+}
+
+main#code {
+  display: flex;
+  /* child elements are next to each other, should be stacked on top of each other.*/
+}
+main#code section#colors {
+  /* color blocks are in the wrong order */
+}
+
+.color-block {
+  /* Use pseudo-classes and variables */
+  /* first block background is $blue */
+  /* second block background is $green */
+  /* third block background is $red */
+  /* fourth block background is $orange */
+  /* fifth block background is $white */
+  /* Blocks should have a 10% darker border color than background */
+  /* https://sass-lang.com/documentation/modules/color/ */
+}
+
+/*# sourceMappingURL=style.css.map */

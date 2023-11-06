@@ -1,0 +1,33 @@
+@use "base";
+
+$green: #0e0;
+
+$light-grey: #efefef;
+$medium-grey: #eee;
+$dark-grey: #333;
+
+$border-radius: 0.5rem;
+
+$orange: hsl(45, 100%, 50);
+$teal: hsl(160, 100%, 50%);
+$blue: hsl(200, 100%, 50%);
+
+button {
+  /* Change background color */
+}
+
+main {
+  /* Add aside element styling */
+
+  /* Add article element and child styling */
+}
+
+.column {
+  /* Add additional styling */
+
+  &:nth-of-type(1) {
+    /* Change background color */
+  }
+
+  /* Add 2 more selectors and change background color */
+}

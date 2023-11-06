@@ -1,0 +1,33 @@
+@use "base";
+
+body {
+  display: flex;
+
+  /* position children in center of page */
+}
+
+main#code {
+  display: flex;
+  /* child elements are next to each other, should be stacked on top of each other.*/
+
+  section#colors {
+    /* color blocks are in the wrong order */
+  }
+}
+
+$blue: #34b7eb;
+$green: #94eb36;
+$red: #eb2015;
+$orange: #eb9d1b;
+$white: #efefef;
+
+.color-block {
+  /* Use pseudo-classes and variables */
+  /* first block background is $blue */
+  /* second block background is $green */
+  /* third block background is $red */
+  /* fourth block background is $orange */
+  /* fifth block background is $white */
+  /* Blocks should have a 10% darker border color than background */
+  /* https://sass-lang.com/documentation/modules/color/ */
+}
